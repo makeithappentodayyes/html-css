@@ -79,6 +79,10 @@ p {
 }
 
 
+.clr {
+    clear: both;
+}
+
 /* Navbar */
 
 #navbar {
@@ -191,5 +195,5 @@ p {
     text-align: center;
     background: #444;
     color: #fff;
-    padding: 22px;
+    padding: 20px;
 }
