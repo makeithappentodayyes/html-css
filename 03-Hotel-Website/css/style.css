@@ -74,6 +74,7 @@ p {
 }
 
 .bg-primary {
+<<<<<<< HEAD
     background: #f7c08a;
     color: #333;
 }
@@ -87,11 +88,27 @@ p {
 }
 
 /* Padding */
+=======
+    color: #333;
+    background: #f7c08a;
+}
+
+
+.clr {
+    clear: both;
+}
+
+/* Padding */
+
+>>>>>>> 160424ef102d2d54ab90e5b86b34fc1761766a0f
 .py-1 {padding: 10px 0;}
 .py-2 {padding: 20px 0;}
 .py-3 {padding: 30px 0;}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 160424ef102d2d54ab90e5b86b34fc1761766a0f
 
 /* Navbar */
 
@@ -183,31 +200,57 @@ p {
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 160424ef102d2d54ab90e5b86b34fc1761766a0f
 /* Features */
 
 .box {
     float: left;
     width: 33.3%;
     padding: 50px;
+<<<<<<< HEAD
     text-align:center;
 }
 
+=======
+    text-align: center;
+}
+
+
+>>>>>>> 160424ef102d2d54ab90e5b86b34fc1761766a0f
 .box i {
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 /* About Info */
+=======
+
+
+/* About Info */
+
+>>>>>>> 160424ef102d2d54ab90e5b86b34fc1761766a0f
 #about-info .info-right {
     float: right;
     width: 50%;
     min-height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 160424ef102d2d54ab90e5b86b34fc1761766a0f
 #about-info .info-right img {
     display: block;
     margin: auto;
     width: 70%;
+<<<<<<< HEAD
     border-radius: 50%;
+=======
+
+>>>>>>> 160424ef102d2d54ab90e5b86b34fc1761766a0f
 }
 
 #about-info .info-left {
@@ -216,6 +259,7 @@ p {
     min-height: 100%;
 }
 
+<<<<<<< HEAD
 /* Testimonials */
 #testimonials {
     height: 600px;
@@ -235,6 +279,8 @@ p {
 
 
 }
+=======
+>>>>>>> 160424ef102d2d54ab90e5b86b34fc1761766a0f
 
 /* Footer */
 
@@ -244,3 +290,8 @@ p {
     color: #fff;
     padding: 20px;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 160424ef102d2d54ab90e5b86b34fc1761766a0f
