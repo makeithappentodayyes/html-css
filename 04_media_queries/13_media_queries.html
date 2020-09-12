@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries</title>
     <style>
-       body {
+        body {
             font-family: Arial, Helvetica, sans-serif;
             background: gray;
-            color: white;
+            color: White;
             text-align: center;
             padding-top: 100px;
         }
@@ -16,74 +16,63 @@
         h1 {
             display: none;
         }
-
+        
         /* Smartphones */
-
-        @media only screen and (max-width: 500px) {
+        @media(max-width: 500px) {
             body {
                 background: red;
             }
-            
-        #smartphone h1 {
-            display: block;
+
+            #smartphone h1 {
+                display: block;
+            }
+
         }
-    }
 
+        /* Tablet */
 
-
-            /* Tablet*/
         @media(min-width: 501px) and (max-width: 768px) {
             body {
                 background: blue;
             }
-
             #tablet h1 {
                 display: block;
             }
-            
-        #smartphone h1 {
-            display: block;
         }
-    }
 
-            /* Normal */
+        /* Normal */
+
         @media(min-width: 769px) and (max-width: 1200px) {
             body {
                 background: green;
             }
-
-            #normal h1{
+            #normal h1 {
                 display: block;
             }
-    }
-
-            /* Widescreen*/
+        }
+        /* WideScreen */
 
         @media(min-width: 1201px) {
             body {
                 background: black;
             }
-
-            #widescreen h1{
+            #widescreen h1 {
                 display: block;
             }
-    }
-            /* Landscape*/
+        }
+        
 
-        @media(min-width: 1201px) {
+        /* Landscape */
+
+        @media(max-height: 500px) {
             body {
-                background: black;
+                background: orange;
             }
-
-            #widescreen h1{
+            #landscape h1 {
                 display: block;
             }
-    }
-
-
-
-
-
+        }
+        
     </style>
 </head>
 <body>
@@ -94,8 +83,3 @@
     <div id="landscape"><h1>Landscape</h1></div>
 </body>
 </html>
-
-
-
-
-<!-- hello -->
