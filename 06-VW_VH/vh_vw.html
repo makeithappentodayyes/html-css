@@ -16,10 +16,42 @@
         }
 
         header {
-            background: #333 url('https://source.unsplash.com/daily');
+            background: #333 url('https://source.unsplash.com/daily')
+            no-repeat center center/cover;
             color: #fff;
             height: 100vh;
+            text-align: center;
+            padding: 2rem;
+            padding-top: 15rem;
         }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin: 1rem 0;
+
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #f4f4f4;
+            color: #333;
+            padding: 0.75rem 2rem;
+        }
+
+        section {
+            padding: 2rem;
+        }
+    
+        @media(max-height: 450px) {
+            header {
+                padding-top: 5rem;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -29,6 +61,13 @@
         animi, maiores iusto quia labore reprehenderit consectetur ipsa quis saepe nisi?</p>
         <a href="#" class="btn">Find Out More</a>
     </header>
+
+    <section>
+        <h3>About Our Company</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab ducimus impedit quaerat. Minima quas, illo ipsam soluta laboriosam optio nam sint, officiis ad mollitia fugiat, impedit quam in nesciunt! Exercitationem nesciunt, soluta laudantium libero a quia 
+        accusamus, distinctio cum fuga iusto maiores provident ea quas repellendus sunt, in iure.</p>
+
+    </section>
     
 </body>
 </html>

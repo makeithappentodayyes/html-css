@@ -99,7 +99,7 @@
     color: #fff;
   }
   
-  #navbar h1 {
+  #navbar .logo {
     float: left;
     padding-top: 20px;
   }
