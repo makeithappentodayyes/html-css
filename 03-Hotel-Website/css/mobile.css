@@ -13,6 +13,12 @@
     border-bottom: #444 dotted 1px
 }
 
+/* Showcase */
+
+#showcase {
+    height: 100%;
+}
+
 /* Home Info */
 
 #home-info .info-img {
@@ -27,6 +33,28 @@
 .box {
     float: none;
     width: 100%;
+}
+
+/* About */
+#about-info .info-right, 
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+.l-heading {
+    text-align: center;
+  
+}
+
+/* contact */
+
+#contact-info .box {
+    border-bottom: #444 dotted 1px
 }
 
 
